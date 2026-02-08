@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- リセットCSS -->
+  <link rel="stylesheet" href="./css/reset.css">
+  <!-- css読み込み -->
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/responsive.css">
+
+  <!-- google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+
+
+  <title>会社概要 - IPPA</title>
+
+</head>
+
+<body>
+  <header>
+    <div class="row">
+      <div class="col">
+        <a href="./index.html" class="logo uppercase">
+          <img src="./img/logo.png" alt="ippa">ippa
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <div id="menu">
+    <nav>
+      <div class="inner">
+        <ul>
+          <li>
+            <a href="./company.html">会社概要</a>
+          </li>
+          <li>
+            <a href="./sarvice.html">事業内容</a>
+          </li>
+          <li>
+            <a href="./contact.html">お問い合わせ</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="toggleBtn">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <div id="mask"></div>
+  </div>
+
+
+  <main>
+    <section class="pageMv">
+      <div class="container">
+        <div class="title">
+          <h1>会社概要</h1>
+          <p class="capitalize">company</p>
+        </div>
+      </div>
+      <div class="pageHd"></div>
+    </section>
+
+    <section class="companySection">
+      <div class="container">
+        <p class="subTitle uppercase">access</p>
+        <h2>会社概要</h2>
+        <div class="row">
+          <div class="col">
+            <img src="./img/company.jpg" width="100%" alt="会社概要">
+          </div>
+          <div class="col">
+            <table class="uppercase">
+              <tr>
+                <th>会社名</th>
+                <td>株式会社ippa</td>
+              </tr>
+              <tr>
+                <th>住所</th>
+                <td>〒730-0015<br>
+                  広島県広島市中区橋本町９−７</td>
+              </tr>
+              <tr>
+                <th>設立</th>
+                <td><time datetime="2000年1月1日">2000年1月1日</time></td>
+              </tr>
+              <tr>
+                <th>資本金</th>
+                <td>1億円</td>
+              </tr>
+              <tr>
+                <th>取引銀行</th>
+                <td>一輪咲銀行</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="section2">
+      <div class="container">
+        <p class="subTitle uppercase">access</p>
+        <h2>アクセス</h2>
+        <div class="map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6584.632935622979!2d132.4688951!3d34.3933013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x355aa200e0cd3cef%3A0x66844dd0aa48db45!2z44CSNzMwLTAwMTUg5bqD5bO255yM5bqD5bO25biC5Lit5Yy65qmL5pys55S677yZ4oiS77yX!5e0!3m2!1sja!2sjp!4v1768145593996!5m2!1sja!2sjp"
+            width="960px" height="440px" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container">
+      <a href="./index.html" class="logo uppercase">
+        <img src="./img/logo.png" alt="ippa">ippa
+      </a>
+      <ul>
+        <li>
+          <a href="./company.html">会社概要</a>
+        </li>
+        <li>
+          <a href="./sarvice.html">事業内容</a>
+        </li>
+        <li>
+          <a href="./contact.html">お問い合わせ</a>
+        </li>
+      </ul>
+      <small class="capitalize"> &copy; 2026 ippa all rights reserved.</small>
+    </div>
+  </footer>
+
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
