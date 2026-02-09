@@ -1,5 +1,10 @@
 @media only screen and (max-width:760px) {
 
+    /* 共通 */
+    .container {
+        max-width: 90%;
+    }
+
     /* ヘッダー */
     header .row {
         display: block;
@@ -258,6 +263,10 @@
         line-height: 1.8;
         font-size: 0.9em;
         margin: 0 auto 12px;
+    }
+
+    #formWrap .caution {
+        text-align: center;
     }
 
 }

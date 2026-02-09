@@ -320,11 +320,12 @@ footer ul {
   display: flex;
   justify-content: center;
   margin-bottom: 64px;
+  white-space: nowrap;
+  gap: 24px;
 }
 
 footer ul li {
   font-size: 16px;
-  margin: 0 24px;
 }
 
 footer ul li a {
@@ -474,7 +475,7 @@ footer ul li a:hover {
 #formWrap {
   max-width: 960px;
   margin: 128px auto 64px;
-  color: #fefefe;
+  color: #011c55;
   line-height: 120%;
   font-size: 90%;
   margin-bottom: 8px;
