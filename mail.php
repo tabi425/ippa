@@ -136,7 +136,7 @@ $mailSignature = <<< FOOTER
 
 〒731-0231 広島市安佐北区亀山8-28-25
 電話:090-7976-2030
-e-mail:smhr425@gmail.com
+e-mail:30606shimohara@gmail.com
 URL: https://hhgrow.org/
 ──────────────────────
 

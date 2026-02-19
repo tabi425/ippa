@@ -1,3 +1,10 @@
+// ローディング画面
+window.onload = function () {
+    const spinner = document.getElementById("loading");
+    spinner.classList.add("loaded");
+};
+
+// ハンバーガーメニュー
 let nav = document.querySelector("#menu");
 let btn = document.querySelector(".toggleBtn");
 let mask = document.querySelector("#mask");
