@@ -29,8 +29,8 @@
 
 /* ローディング画面 */
 #loading {
-  width: 100vw;
-  height: 100vh;
+  width: 120vw;
+  height: 120vh;
   transition: all 1s;
   background-color: #0bd;
   position: fixed;
